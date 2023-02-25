@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <meta charset="UTF-8">
+  <title>Home Page</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sites/page1.html">Ferrari</a></li>
+        <li><a href="sites/page2.html">Audi</a></li>
+        <li><a href="sites/page3.html">Ford Mustang</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main-content">
+    <form>
+      <input type="button" value="Login" onclick="showWelcomeMessage()">
+    </form>   
+    <article class="article">
+      <h1 class="FirstChar">Sport Cars: A Look into the Fast and Furious World</h1>
+      <p>The world of sport cars is filled with excitement and thrill, showcasing some of the most <u>powerful and sleek</u> vehicles. Among the many names that dominate this industry, <del>some stand out for their exceptional speed and performance</del>.</p>
+      <h2>Sport Cars: The Ultimate Driving Machines</h2>
+      <p>Sport cars are a true embodiment of style and performance. With sleek designs, powerful engines and a blend of luxury, these vehicles are designed for speed and to provide an unforgettable driving experience. From the aggressive lines to the roar of the engine, sport cars are synonymous with thrill-seeking and luxury.</p>
+      <table>
+        <caption>My Table</caption>
+        <tr>
+          <th colspan="2">Table Headings</th>
+        </tr>
+        <tr>
+          <td>Row 1 Column 1</td>
+          <td>Row 1 Column 2</td>
+        </tr>
+        <tr>
+          <td>Row 2 Column 1</td>
+          <td>Row 2 Column 2</td>
+        </tr>
+        <tr>
+          <td>Row 3 Column 1</td>
+          <td>Row 3 Column 2</td>
+        </tr>
+        <tr>
+          <td>Row 4 Column 1</td>
+          <td>Row 4 Column 2</td>
+        </tr>
+      </table>  
+      <section class="section">
+        <img src="images/cars.jpg" alt="Image">
+      </section>
+    </article> 
+  </main>
+  <footer class="footer">
+    <p>The content of this website is for sport cars</p>
+    <a href="https://www.example.com/">External Link 1</a>
+    <a href="https://www.example2.com/">External Link 2</a>
+  </footer>
+  <script>
+    let name = prompt("Please enter your name");
+    if (name === "Smith") {
+      name = prompt("Please enter your real name");
+    }
+
+    function showWelcomeMessage() {
+      alert("Welcome, " + name);
+    }
+  </script>
+</body>
+</html>
+
